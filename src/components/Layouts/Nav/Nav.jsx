@@ -7,7 +7,10 @@ export const Nav = () => {
     <nav className='navBar'>
         <Ancla Style='ancla' url="/" texto="Home"></Ancla>
         <Ancla Style='ancla' url="/about" texto="abaut"></Ancla>
-        <Ancla Style='ancla' url="contact" texto="Contact"></Ancla>
+        <Ancla Style='ancla' url="/contact" texto="Contact"></Ancla>
+        <Ancla Style='ancla' url="/contador" texto="Contador"></Ancla>
+        <Ancla Style='ancla' url="/cambiarFondo" texto="CambioFondo"></Ancla>
+        <Ancla Style='ancla' url="/apiRick" texto="api"></Ancla>
     </nav>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '../../../images/logo192.png'
 
-export const Icono = () => {
+
+export const Icono = ({logo,style,id="img"}) => {
   return (
-    <img className='imagenIcono' src={logo} alt="icono"/>
+    <img id={id} className={style} src={logo} alt="icono"/>
   )
 }
