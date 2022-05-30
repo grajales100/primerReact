@@ -28,12 +28,14 @@
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     width: 100%;
     background-color: rgb(74, 73, 73);
     color: white;
+    gap: 150px;
     height: 20vh;
+    padding-left: 30px;
 }
 
 .imagenIcono{
@@ -53,7 +55,7 @@ nav{
     display: flex;
     gap:15px;
     font-size: 1.4rem;
-    width: 25%;
+    width: 45%;
 }
 
 .ancla{
