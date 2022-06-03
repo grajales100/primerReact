@@ -2,6 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { About } from './components/Pages/About/About';
 import { ApiRick } from './components/Pages/ApiRick/ApiRick';
+import { ApiTenor } from './components/Pages/ApiTenor/ApiTenor';
 import { CambiarFondo } from './components/Pages/CambiarFondo/CambiarFondo';
 import { Contact } from './components/Pages/Contact/Contact';
 import { Contador } from './components/Pages/Contador/Contador';
@@ -17,6 +18,7 @@ function App() {
             <Route path='/contador' element={<Contador />} />
             <Route path='/cambiarFondo' element={<CambiarFondo />} />
             <Route path='/apiRick' element={<ApiRick />} />
+            <Route path='/apiTenor' element={<ApiTenor />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
     );

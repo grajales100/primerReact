@@ -117,7 +117,8 @@ h2{
 }
 
 .cardBack{
-    height: 30vh;
+    height: 35vh;
+    width: 90%;
     background-color: gray;
     display: flex;
     justify-content: space-around;
@@ -127,7 +128,8 @@ h2{
 }
 
 .cards img{
-    width: 50%;
+    width: 150px;
+    height: 150px;
     border-radius: 30px;
 }
 
@@ -163,4 +165,8 @@ h2{
     border-radius: 10px;
     border: 2px solid white;
     resize: none;
+}
+
+h3{
+    text-align: center;
 }
