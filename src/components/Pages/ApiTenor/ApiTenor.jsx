@@ -30,12 +30,16 @@ export const ApiTenor = () => {
     }
 
     function getCharacters(){
+        const cards = document.querySelector('.cards');
+        while (cards.firstChild) {
+            cards.removeChild(cards.firstChild);
+        }
         const URL="https://g.tenor.com/v1/trending?";
         fetch(URL+'key='+Key)
         .then(res=>res.json())
         .then(data=>{
             data.results.map(element => {
-                //console.log(element.content_description+' '+element.media[0].gif.url);
+                console.log(element.content_description+' '+element.media[0].gif.url);
                 crearCard(element.content_description, element.media[0].gif.url);
             });
         });
